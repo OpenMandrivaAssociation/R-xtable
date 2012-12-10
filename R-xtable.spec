@@ -9,7 +9,10 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.7-0.tar.gz
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
+BuildRequires:    R-devel
+BuildRequires:    Rmath-devel
+BuildRequires:    texlive-collection-latex 
+BuildRequires:    pkgconfig(lapack)
 
 %description
 Coerce data to LaTeX and HTML tables
@@ -40,3 +43,11 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
+
+
+%changelog
+* Thu Feb 16 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.7_0-1
++ Revision: 775360
+- Import R-xtable
+- Import R-xtable
+
