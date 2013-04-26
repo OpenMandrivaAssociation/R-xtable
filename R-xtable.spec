@@ -1,6 +1,8 @@
 %global packname  xtable
 %global rlibdir  %{_libdir}/R/library
 
+%define debug_package %{nil}
+
 Name:             R-%{packname}
 Version:          1.7_0
 Release:          1
