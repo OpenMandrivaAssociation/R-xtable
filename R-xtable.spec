@@ -1,16 +1,14 @@
 %global packname  xtable
 %global rlibdir  %{_libdir}/R/library
 
-%define debug_package %{nil}
-
 Name:             R-%{packname}
-Version:          1.7_0
+Version:          1.7.1
 Release:          1
 Summary:          Export tables to LaTeX or HTML
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_1.7-0.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/xtable_1.7-1.tar.gz
 BuildRequires:    R-devel
 BuildRequires:    Rmath-devel
 BuildRequires:    texlive-collection-latex 
@@ -52,4 +50,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 + Revision: 775360
 - Import R-xtable
 - Import R-xtable
+
 
