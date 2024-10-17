@@ -9,7 +9,7 @@ Release:          2
 Summary:          Export tables to LaTeX or HTML
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/xtable_1.7-3.tar.gz
 BuildRequires:    R-devel
 BuildRequires:    Rmath-devel
